@@ -21,6 +21,13 @@ class HomeViewController: UIViewController {
         
         handleNotAuthenticated()
         
+//        do {
+//            try Auth.auth().signOut()
+//        }
+//        catch {
+//            print("fail to try out")
+//            
+//        }
     }
     
     //if the user is not loged in, this will direct them to the loginView
