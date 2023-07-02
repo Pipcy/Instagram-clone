@@ -35,6 +35,7 @@
 		5BC9D1662A50E0AB0054AFF5 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D1652A50E0AB0054AFF5 /* DatabaseManager.swift */; };
 		5BC9D1682A50F31D0054AFF5 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D1672A50F31D0054AFF5 /* AuthManager.swift */; };
 		5BC9D16A2A50F3790054AFF5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D1692A50F3790054AFF5 /* StorageManager.swift */; };
+		5BC9D16C2A50F9AA0054AFF5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D16B2A50F9AA0054AFF5 /* Extensions.swift */; };
 		AEDE7BD295288BA916ADD4FE /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D85C1069251D45356EEBB6 /* Pods_Instagram.framework */; };
 		D57FE566731D29C3D7BD04A1 /* Pods_Instagram_InstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A1D1C2B685501273D7432 /* Pods_Instagram_InstagramUITests.framework */; };
 /* End PBXBuildFile section */
@@ -93,6 +94,7 @@
 		5BC9D1652A50E0AB0054AFF5 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		5BC9D1672A50F31D0054AFF5 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		5BC9D1692A50F3790054AFF5 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		5BC9D16B2A50F9AA0054AFF5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6AD42BE179B7672CD2CC5BA8 /* Pods-InstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.release.xcconfig"; path = "Target Support Files/Pods-InstagramTests/Pods-InstagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		90949187204D0BF6A17BFE18 /* Pods-Instagram-InstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-InstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Instagram-InstagramUITests/Pods-Instagram-InstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5F1B348AFFF0503248B2E8E /* Pods_InstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,6 +224,7 @@
 				5BC9D1652A50E0AB0054AFF5 /* DatabaseManager.swift */,
 				5BC9D1692A50F3790054AFF5 /* StorageManager.swift */,
 				5BC9D1672A50F31D0054AFF5 /* AuthManager.swift */,
+				5BC9D16B2A50F9AA0054AFF5 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -546,6 +549,7 @@
 				5B304B472A4FD03D005CB1D8 /* HomeViewController.swift in Sources */,
 				5B304B922A4FD377005CB1D8 /* SearchResultViewController.swift in Sources */,
 				5B304B842A4FD2D8005CB1D8 /* LoginViewController.swift in Sources */,
+				5BC9D16C2A50F9AA0054AFF5 /* Extensions.swift in Sources */,
 				5B304B902A4FD360005CB1D8 /* SearchViewController.swift in Sources */,
 				5B304B7F2A4FD25C005CB1D8 /* ProfileViewController.swift in Sources */,
 				5BC9D1682A50F31D0054AFF5 /* AuthManager.swift in Sources */,
@@ -735,8 +739,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -763,8 +768,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
