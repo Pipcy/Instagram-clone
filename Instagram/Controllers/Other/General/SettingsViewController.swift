@@ -74,6 +74,7 @@ final class SettingsViewController: UIViewController {
         let vc = EditProfileViewController()
         vc.title = "Edit Profile"
         let navVC = UINavigationController(rootViewController: vc)
+        navVC.modalPresentationStyle = .fullScreen // so that the edit profile is full screen
         present(navVC, animated: true)
     }
     private func didTapInviteFriends() {

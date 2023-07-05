@@ -40,6 +40,12 @@
 		5BC9D1722A53D80E0054AFF5 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D1712A53D80E0054AFF5 /* IGFeedPostHeaderTableViewCell.swift */; };
 		5BC9D1742A53D8240054AFF5 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D1732A53D8240054AFF5 /* IGFeedPostActionsTableViewCell.swift */; };
 		5BC9D1762A53D8450054AFF5 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D1752A53D8450054AFF5 /* IGFeedPostGeneralTableViewCell.swift */; };
+		5BC9D1782A54D4D50054AFF5 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D1772A54D4D50054AFF5 /* FormTableViewCell.swift */; };
+		5BC9D17B2A54E16F0054AFF5 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D17A2A54E16F0054AFF5 /* PhotoCollectionViewCell.swift */; };
+		5BC9D1842A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D1822A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.swift */; };
+		5BC9D1852A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC9D1832A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.xib */; };
+		5BC9D1882A54E2790054AFF5 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9D1862A54E2790054AFF5 /* ProfileTabsCollectionReusableView.swift */; };
+		5BC9D1892A54E2790054AFF5 /* ProfileTabsCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC9D1872A54E2790054AFF5 /* ProfileTabsCollectionReusableView.xib */; };
 		AEDE7BD295288BA916ADD4FE /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D85C1069251D45356EEBB6 /* Pods_Instagram.framework */; };
 		D57FE566731D29C3D7BD04A1 /* Pods_Instagram_InstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A1D1C2B685501273D7432 /* Pods_Instagram_InstagramUITests.framework */; };
 /* End PBXBuildFile section */
@@ -103,6 +109,12 @@
 		5BC9D1712A53D80E0054AFF5 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		5BC9D1732A53D8240054AFF5 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
 		5BC9D1752A53D8450054AFF5 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		5BC9D1772A54D4D50054AFF5 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
+		5BC9D17A2A54E16F0054AFF5 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5BC9D1822A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		5BC9D1832A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInfoHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		5BC9D1862A54E2790054AFF5 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
+		5BC9D1872A54E2790054AFF5 /* ProfileTabsCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTabsCollectionReusableView.xib; sourceTree = "<group>"; };
 		6AD42BE179B7672CD2CC5BA8 /* Pods-InstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.release.xcconfig"; path = "Target Support Files/Pods-InstagramTests/Pods-InstagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		90949187204D0BF6A17BFE18 /* Pods-Instagram-InstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-InstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Instagram-InstagramUITests/Pods-Instagram-InstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5F1B348AFFF0503248B2E8E /* Pods_InstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +213,7 @@
 		5B304B722A4FD093005CB1D8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5BC9D1792A54E12D0054AFF5 /* CollectionViewHeaders */,
 				5BC9D16D2A53D5F10054AFF5 /* Cells */,
 				5B304B4B2A4FD03E005CB1D8 /* Assets.xcassets */,
 				5B304B762A4FD11C005CB1D8 /* Storyboard */,
@@ -296,6 +309,8 @@
 			isa = PBXGroup;
 			children = (
 				5BC9D1702A53D7EC0054AFF5 /* Home Feed */,
+				5BC9D1772A54D4D50054AFF5 /* FormTableViewCell.swift */,
+				5BC9D17A2A54E16F0054AFF5 /* PhotoCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -309,6 +324,17 @@
 				5BC9D1752A53D8450054AFF5 /* IGFeedPostGeneralTableViewCell.swift */,
 			);
 			path = "Home Feed";
+			sourceTree = "<group>";
+		};
+		5BC9D1792A54E12D0054AFF5 /* CollectionViewHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				5BC9D1822A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.swift */,
+				5BC9D1832A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.xib */,
+				5BC9D1862A54E2790054AFF5 /* ProfileTabsCollectionReusableView.swift */,
+				5BC9D1872A54E2790054AFF5 /* ProfileTabsCollectionReusableView.xib */,
+			);
+			path = CollectionViewHeaders;
 			sourceTree = "<group>";
 		};
 		ADB9FB0D5207D31BA3932A2E /* Pods */ = {
@@ -434,8 +460,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B304B4F2A4FD03E005CB1D8 /* LaunchScreen.storyboard in Resources */,
+				5BC9D1892A54E2790054AFF5 /* ProfileTabsCollectionReusableView.xib in Resources */,
 				5B33E4072A50CC370069E165 /* GoogleService-Info.plist in Resources */,
 				5B304B4C2A4FD03E005CB1D8 /* Assets.xcassets in Resources */,
+				5BC9D1852A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.xib in Resources */,
 				5B304B4A2A4FD03D005CB1D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,15 +601,19 @@
 				5BC9D1722A53D80E0054AFF5 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				5B304B942A4FD3AB005CB1D8 /* PostEditorViewController.swift in Sources */,
 				5BC9D16A2A50F3790054AFF5 /* StorageManager.swift in Sources */,
+				5BC9D1782A54D4D50054AFF5 /* FormTableViewCell.swift in Sources */,
 				5B304B882A4FD300005CB1D8 /* PostViewController.swift in Sources */,
+				5BC9D1882A54E2790054AFF5 /* ProfileTabsCollectionReusableView.swift in Sources */,
 				5BC9D1662A50E0AB0054AFF5 /* DatabaseManager.swift in Sources */,
 				5B304B472A4FD03D005CB1D8 /* HomeViewController.swift in Sources */,
 				5BC9D16F2A53D6180054AFF5 /* IGFeedPostTableViewCell.swift in Sources */,
+				5BC9D17B2A54E16F0054AFF5 /* PhotoCollectionViewCell.swift in Sources */,
 				5B304B922A4FD377005CB1D8 /* SearchResultViewController.swift in Sources */,
 				5B304B842A4FD2D8005CB1D8 /* LoginViewController.swift in Sources */,
 				5BC9D16C2A50F9AA0054AFF5 /* Extensions.swift in Sources */,
 				5BC9D1762A53D8450054AFF5 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				5B304B902A4FD360005CB1D8 /* SearchViewController.swift in Sources */,
+				5BC9D1842A54E2330054AFF5 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */,
 				5B304B7F2A4FD25C005CB1D8 /* ProfileViewController.swift in Sources */,
 				5BC9D1682A50F31D0054AFF5 /* AuthManager.swift in Sources */,
 				5B304B432A4FD03D005CB1D8 /* AppDelegate.swift in Sources */,
